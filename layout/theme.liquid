@@ -7,7 +7,8 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
+    <link rel="stylesheet" href="/assets/style.css">
+    
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -250,8 +251,50 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-<!--       {{ content_for_layout }} -->
-    </main>
+      {% comment %} {{ content_for_layout }} {% endcomment %}
+    <div class="dog_img">
+     
+       <div class="div_text">
+        {% comment %} <h1>Best <br> Pet <br> Shop</h1> {% endcomment %}
+      <h1>  {% capture var %}
+        Best
+        Pet
+        Shop
+        {% endcapture %}
+        {{ var | newline_to_br }}
+        
+        </h1>
+        <p>consectetur adipiscing elit, sed do <br> eiusmod tempor incidid</p>
+      {% comment %} {% assign col =  %}
+        {% for tag in col %}
+          {{- tag | link_to_tag: tag }}
+        {% endfor %} {% endcomment %}
+        <a href="#" class="Button_read_more button_color_intro">Read More</a>
+       
+       </div>
+
+       <div class="number">
+        {% assign variable = '01' %}
+        {{variable}}
+      </div>
+  
+    </div>
+    <div class="bg_about-div " style="display: flex; justify-content:end">
+      <div class=""style="width:30%; ">
+        <h1><span style="color: #f7941d;">About</span> Dogs</h1>
+        <p> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#" class="Button_read_more button_color_about">Read More</a>
+      </div>
+      <div class="number">
+        {{variable | replace: '1', '2' }}
+      </div>
+    </div>
+    <div class=""style="background-color: #f7941d; text-align:right">
+      <h1 style="margin:0 !important ; padding: 50px 100px "><span style="color: white; margin:0 !important">Our</span> Dogs</h1>
+      <p class="margin-bottom:0 !important"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      
+    </div>
+   </main>
 
     {% sections 'footer-group' %}
 
@@ -293,5 +336,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
   </body>
 </html>
+

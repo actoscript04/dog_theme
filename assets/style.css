@@ -1,0 +1,51 @@
+.dog_img{
+    background-image: url('https://cdn.shopify.com/s/files/1/0619/1821/6373/files/banner.jpg?v=1680067189');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.dog_img .div_text{
+    color: white !important;
+  width: 40%;
+text-align: right;
+
+}
+.dog_img .div_text h1{
+    color: white !important;
+    font-size: 60px;
+}
+.Button_read_more{
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    border-radius: 50px;
+}
+.button_color_intro{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.button_color_about{
+color: white;
+background-color: black;
+}
+.bg_about-div{
+    background-image: url('https://cdn.shopify.com/s/files/1/0619/1821/6373/files/about-img.jpg?v=1680068744');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    padding-right: 100px;
+  
+}
+.number{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #f7941d;
+    font-size: 30px;
+   font-weight: bold;
+}
