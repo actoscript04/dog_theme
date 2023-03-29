@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 76
+      }
+    },
+    "db72f494-b248-4a8e-bcc8-e47b110b56d9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>ABOUT US<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "17898821-102d-4510-8cab-5c4d2db224ef": {
+          "type": "caption",
+          "settings": {
+            "caption": "Grouped",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-0",
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-1",
+        "template--15791183134901__db72f494-b248-4a8e-bcc8-e47b110b56d9-1679989097d29811ba-2",
+        "17898821-102d-4510-8cab-5c4d2db224ef"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b6d58c14-52c5-4e9b-9206-d0051e7bd254": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Store",
+            "heading_size": "h2"
+          }
+        },
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-0",
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-1",
+        "template--15791183134901__b6d58c14-52c5-4e9b-9206-d0051e7bd254-1679994909e53928df-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Slider_Banner_Mobile_570x_98e93fbf-7d23-4f64-98c1-e76ab59acfac.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cf170a86-634e-4b00-affb-4c33a22037b9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONTACT US",
+            "heading_size": "h2"
+          }
+        },
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TEXT: <a href=\"tel:%20(090)%20123-ELLA\">091-123-ELLA<\/a><\/p><p>email@domain.com<\/p><p>685 Market Street<br\/>San Francisco, CA 94105,<br\/>United States<\/p><p><\/p><p>Opening Hours<br\/>MON to SAT: 9:00 AM - 10:00 PM<br\/>SUN: 10:00 AM - 6:00 PM<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Leave Message",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-0",
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-1",
+        "template--15791183134901__cf170a86-634e-4b00-affb-4c33a22037b9-1679994909e53928df-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Slider_Banner_Mobile_570x_98e93fbf-7d23-4f64-98c1-e76ab59acfac.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "db72f494-b248-4a8e-bcc8-e47b110b56d9",
+    "b6d58c14-52c5-4e9b-9206-d0051e7bd254",
+    "cf170a86-634e-4b00-affb-4c33a22037b9"
+  ]
+}

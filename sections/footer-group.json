@@ -1,0 +1,75 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "e94b58a1-1ae4-4b64-bece-0c233278e9f7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "Heading",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+          }
+        },
+        "a4b99e95-68a7-4132-9992-2952cb97d47e": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "6dc9341a-88b6-4373-9bc9-2e09a28f37aa": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SHOP BY",
+            "menu": "shop-by"
+          }
+        },
+        "ea31bd26-998a-4efa-a0a8-b342989b94ce": {
+          "type": "link_list",
+          "settings": {
+            "heading": "INFORMATION",
+            "menu": "information"
+          }
+        },
+        "1ffe1ed7-1bfd-44c7-902b-945737f0205a": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SERVICE",
+            "menu": "service"
+          }
+        }
+      },
+      "block_order": [
+        "e94b58a1-1ae4-4b64-bece-0c233278e9f7",
+        "a4b99e95-68a7-4132-9992-2952cb97d47e",
+        "6dc9341a-88b6-4373-9bc9-2e09a28f37aa",
+        "ea31bd26-998a-4efa-a0a8-b342989b94ce",
+        "1ffe1ed7-1bfd-44c7-902b-945737f0205a"
+      ],
+      "custom_css": [
+        "{line-height: 1px; text-align:center; }"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our Email list",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
