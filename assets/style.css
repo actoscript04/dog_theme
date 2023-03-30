@@ -1,15 +1,25 @@
 .dog_img{
     background-image: url('https://cdn.shopify.com/s/files/1/0619/1821/6373/files/banner.jpg?v=1680067189');
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-size: cover;
     position: relative;
 }
 .dog_img .div_text{
     color: white !important;
-  width: 40%;
+  width: 35%;
 text-align: right;
 
+}
+p,a{
+    font-size: 20px;
+    line-height: 28px;
+}
+p{
+    margin-bottom: 40px;
+}
+.About_dogs{
+    width:60%;
 }
 .dog_img .div_text h1{
     color: white !important;
@@ -18,7 +28,6 @@ text-align: right;
 .Button_read_more{
     text-decoration: none;
     padding: 10px 20px;
-   
     border-radius: 50px;
 }
 .button_color_intro{
@@ -36,16 +45,312 @@ background-color: black;
     background-size: cover;
     position: relative;
     text-align: right;
-    padding-right: 100px;
-  
+}
+.color_white span{
+    margin-left: 15px;
+}
+.margin_20_left{
+    margin-left: 25px;
+}
+.div_wid div{
+    width: 100%;
+}
+.footer_heading{
+    font-weight: bold;
+}
+ul li {
+  /* list-style-type: square; */
+  list-style: none;
+}
+li:hover{
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "\25A0";
+    color: #f7941d;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.5em;
+    font-size: 20px;
+  }
+  .insta_img_footer{
+    padding: 6px;
+  }
+.icon_footer{
+    padding: 10px 15px;
+    border: 1px dashed #f7941d;
+    font-size: 25px;
+    color: white;
+}
+.footer_about{
+    display: flex;
+}
+.bg_footer{
+    background-color: #2b2728;
+}
+h1{
+    margin-top: 0 !important;
 }
 .number{
     position: absolute;
     bottom: 0;
-    right: 100px;
     padding: 10px 30px;
     color: white;
     background-color: #f7941d;
     font-size: 30px;
    font-weight: bold;
+}
+.number_right{
+    right: 200px;
+}
+.number_left{
+    left: 200px;
+}
+.gal-img5{
+    margin-top: 20px;
+    width: 100%;
+   padding-left: 20px;
+}
+.menu{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.color_yellow{
+   color:#f7941d; 
+}
+.color_white{
+    color: white;
+}
+.color_black{
+    color: black;
+   
+}
+.padding_for_section{
+    padding: 50px 200px;
+}
+.menu_div{
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.megnifier_margin{
+    margin: 0 20px;
+    font-size: 22px;
+}
+.form_bg{
+    background-image: url('https://cdn.shopify.com/s/files/1/0619/1821/6373/files/email-img.jpg?v=1680151278');
+  
+    width: 100%;
+    background-size: cover;
+    position: relative;
+ 
+   
+}
+input:focus{
+    border: none;
+    outline: unset;
+    outline-offset: unset;
+   
+}
+.SubScribe_button{
+    border-radius: 0 50px  50px 0;
+    border:none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.form_input{
+    width: 100%; 
+    font-size:15px; 
+    padding:10px;
+   margin-top: 20px;
+}
+.send_button{
+    text-align: center;
+    
+}
+.send_button{
+    text-align: center;
+    padding: 10px 40px;
+   border: none;
+    color: white;
+    background-color: #f7941d;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wid_for_gal{
+    width: 80%;
+}
+    
+@media only screen and (min-width: 500px) and (max-width:900px){
+    .padding_for_section{
+        padding: 50px 50px;
+    } 
+    h1{
+        font-size: 32px !important;
+        font-weight: bold !important;
+        line-height: 35px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .dog_img{
+        background-position: -130px;
+        height: 650px;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    .menu_div{
+        padding-top: 20px;
+        padding-right: 50px;
+    }
+    .number_right{
+        right: 50px;
+    }
+    .number_left{
+        left: 50px;
+    }
+    .number{
+        padding: 5px 15px;
+        font-size: 25px;
+       font-weight: bold;
+    }
+    .bg_about-div{
+      background-position: -100px;
+    }
+    .About_dogs{
+        width:50%;
+    }
+    .div_wid{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      
+
+    }
+    
+    .div_wid div{
+        width: 50%;
+        justify-content: center;
+      
+    }
+
+    .div_wid div:last-child, .div_wid div:first-child{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_about{
+        flex-wrap: wrap;
+      
+        justify-content: space-between;
+       
+    }
+    .footer_about div{
+        margin-top: 20px;
+    }
+    .margin_left_responsive{
+        margin-left: 0 !important;
+        padding-right: 14px;
+    }
+}
+@media only screen and  (max-width:499px){
+    .padding_for_section{
+        padding: 50px 50px;
+    } 
+    h1{
+        font-size: 32px !important;
+        font-weight: bold !important;
+        line-height: 35px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .dog_img{
+        background-position: -280px;
+        height: 650px;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+    .menu_div{
+        padding-top: 20px;
+        padding-right: 10px !important;
+    }
+    .number_right{
+        right: 50px;
+    }
+    .number_left{
+        left: 50px;
+    }
+    .number{
+        padding: 5px 15px;
+        font-size: 25px;
+       font-weight: bold;
+    }
+    .bg_about-div{
+      background-position: -100px;
+    }
+    .About_dogs{
+        width:100%;
+    }
+    .div_wid{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      
+
+    }
+    
+    .div_wid div{
+        width: 100%;
+        justify-content: center;
+      
+    }
+
+    .div_wid div:last-child, .div_wid div:first-child{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_about{
+        flex-wrap: wrap;
+      
+        justify-content: space-between;
+       
+    }
+    .footer_about div{
+        margin-top: 20px;
+    }
+   .black_dog_text{
+    flex-wrap: wrap;
+   }
+   .wid_for_gal{
+    width: 100% !important;
+   }
+   .menu_text{
+    display: none;
+   }
+   .dog_img .div_text{
+    color: white !important;
+  width: 45%;
+text-align: left;
+padding-left: 20px;
+
+}
+.Button_read_more{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 16px;
+}
 }
